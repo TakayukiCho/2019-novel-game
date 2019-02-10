@@ -6,7 +6,6 @@ namespace cSharpPractice {
     public class Vegetable
     {
         public Vegetable(string name) => Name = name;
-
         public string Name { get; }
 
         public override string ToString() => Name;
@@ -24,6 +23,13 @@ namespace cSharpPractice {
     class Program {
 
         static void Main(string[] args){
+
+            if (args.Length == 0) {
+                Console.WriteLine("You should specify arguments with -- \"arguments\"");
+                Console.WriteLine("Program exits.");
+                System.Environment.Exit(1);
+            }
+
             string command = args[0];
 
             switch (command)
@@ -42,9 +48,6 @@ namespace cSharpPractice {
                     break;
                 case "fibonacci":
                     fibonacci();
-                    break;
-                case "class":
-                    workingWithClasses();
                     break;
                 default:
                     throw new Exception("this never happens");
@@ -65,11 +68,6 @@ namespace cSharpPractice {
                     Console.WriteLine(i);
                 }
             }
-        }
-
-        static void workingWithClasses(){
-            var account = new BankAccount("<name>", 1000);
-            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
         }
 
         static void circleArea(){
@@ -96,10 +94,6 @@ namespace cSharpPractice {
             {
                 Console.WriteLine(a);
             }
-
-
-
         }
-
     }
 }

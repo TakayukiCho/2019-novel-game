@@ -1,0 +1,11 @@
+/Users/tc/workspace/2019-novel-game/cSharpPractice/bin/Debug/netcoreapp2.2/cSharpPractice.deps.json
+/Users/tc/workspace/2019-novel-game/cSharpPractice/bin/Debug/netcoreapp2.2/cSharpPractice.runtimeconfig.json
+/Users/tc/workspace/2019-novel-game/cSharpPractice/bin/Debug/netcoreapp2.2/cSharpPractice.runtimeconfig.dev.json
+/Users/tc/workspace/2019-novel-game/cSharpPractice/bin/Debug/netcoreapp2.2/cSharpPractice.dll
+/Users/tc/workspace/2019-novel-game/cSharpPractice/bin/Debug/netcoreapp2.2/cSharpPractice.pdb
+/Users/tc/workspace/2019-novel-game/cSharpPractice/obj/Debug/netcoreapp2.2/cSharpPractice.csprojAssemblyReference.cache
+/Users/tc/workspace/2019-novel-game/cSharpPractice/obj/Debug/netcoreapp2.2/cSharpPractice.csproj.CoreCompileInputs.cache
+/Users/tc/workspace/2019-novel-game/cSharpPractice/obj/Debug/netcoreapp2.2/cSharpPractice.AssemblyInfoInputs.cache
+/Users/tc/workspace/2019-novel-game/cSharpPractice/obj/Debug/netcoreapp2.2/cSharpPractice.AssemblyInfo.cs
+/Users/tc/workspace/2019-novel-game/cSharpPractice/obj/Debug/netcoreapp2.2/cSharpPractice.dll
+/Users/tc/workspace/2019-novel-game/cSharpPractice/obj/Debug/netcoreapp2.2/cSharpPractice.pdb
