@@ -1,0 +1,42 @@
+- name: オープニング
+  map: 暗闇の中
+  main-events:
+  - list:
+    - event: TALK
+      character: シノン(???)
+      words:
+        - つながった。
+        - すぐ助けに行くわ。だから、そこでなにもしないで
+        - 目を開いたり、音を聞いたりしてはダメ。動き回ったり、周囲のものに触るのもダメ
+        - そしてなによりーー
+        - 絶対に、なまえを教えてはだめ
+        - 名前(name)は領域(domain)
+        - それを知られたら、あなたはあなたではいられなくなってしまう
+    - event: INPUT_NAME
+      words:
+        - なまえをいれてください
+      description: |
+        カウントダウンが始まる。入力しないと主人公死亡
+        入力すると次のシーンへ
+- name: 
+  map: 世界の果て
+  main-events:
+  - list:
+    - event: BATTLE
+      trigger: ENCOUNT
+      description: |
+        ニルスが作り出した敵に襲われる
+        負けイベント。ミウとニルスが乱入してきて助けてくれる。
+    - event: TALK
+      character: ミウ
+      words:
+        - 間に合った！　だいじょうぶ？
+    - event: EFFECT
+      description: |
+        ブラックアウトする。
+  sub-events:
+  - list:
+    - event: CHECK
+      object: ゲート 
+      words:
+        - ここで世界はおわっている
